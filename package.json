@@ -1,0 +1,31 @@
+{
+  "name": "pufzin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/contract": "^4.6.31",
+    "circom": "^0.5.46",
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.7.5",
+    "truffle": "^5.11.5"
+  },
+  "dependencies": {
+    "chai": "^4.3.8",
+    "circom_tester": "^0.0.20",
+    "circom2": "^0.2.19",
+    "circomlibjs": "^0.1.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "web3": "^4.0.1"
+  }
+}

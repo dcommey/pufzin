@@ -1,0 +1,53 @@
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+
+# Development
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# Truffle
+build/
+/build/contracts/*
+.idea/
+
+# Ganache
+.ganache/
+
+# Project specific
+results/
+circuits/build/
+*.zkey
+*.ptau
+*.r1cs
+*.sym
+*.wasm
+*.wtns
+
+# IDEs
+.vscode/
+*.swp
+*.swo
+
+# Logs and results
+logs/
+results
+*.log
+
+# Temp files
+*.tmp
+.tmp/
+temp/
